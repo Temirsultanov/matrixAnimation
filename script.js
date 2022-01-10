@@ -22,7 +22,7 @@ class FallingChar {
     }
     draw(ctx) {
         this.value = getRandomElement(charArr);
-        this.speed = Math.random() * fontSize * 0.75 + fontSize * 0.75;
+        this.speed = Math.random() * fontSize * 0.25 + fontSize * 0.75;
         
         ctx.fillStyle = fontColor;
         ctx.font = `${fontSize} px san-serif`;
